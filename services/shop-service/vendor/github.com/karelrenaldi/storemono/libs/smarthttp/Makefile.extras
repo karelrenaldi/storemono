@@ -1,0 +1,9 @@
+## Provide hook for project-level custom formatting
+pre_format:
+	@
+
+## Provide hook for project-level custom validation or additional testing
+pre_validate:
+	# Call default implementation of Instrumentation (to check against any regression of this library)
+	$(MAKE) PROJECT_DIR="commons/go/telemetry/statssmarthttp" do_deps
+	$(MAKE) PROJECT_DIR="commons/go/telemetry/statssmarthttp" do_test

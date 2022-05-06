@@ -1,0 +1,17 @@
+# github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
+## explicit
+github.com/afex/hystrix-go/hystrix
+github.com/afex/hystrix-go/hystrix/metric_collector
+github.com/afex/hystrix-go/hystrix/rolling
+# github.com/corsc/go-commons v1.1.0
+## explicit
+github.com/corsc/go-commons/resilience/retry
+# github.com/kr/pretty v0.1.0
+## explicit
+# github.com/stretchr/testify v1.5.1
+## explicit
+# golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
+## explicit
+golang.org/x/sync/singleflight
+# gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127
+## explicit

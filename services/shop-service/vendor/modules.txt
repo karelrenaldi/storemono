@@ -1,0 +1,35 @@
+# github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
+github.com/afex/hystrix-go/hystrix
+github.com/afex/hystrix-go/hystrix/metric_collector
+github.com/afex/hystrix-go/hystrix/rolling
+# github.com/corsc/go-commons v1.1.0
+github.com/corsc/go-commons/resilience/retry
+# github.com/gorilla/mux v1.8.0
+## explicit
+github.com/gorilla/mux
+# github.com/joho/godotenv v1.4.0
+## explicit
+github.com/joho/godotenv
+# github.com/karelrenaldi/storemono/libs/http-utils v0.0.0 => ../../libs/http-utils
+## explicit
+github.com/karelrenaldi/storemono/libs/http-utils
+# github.com/karelrenaldi/storemono/libs/logger v0.0.0 => ../../libs/logger
+## explicit
+github.com/karelrenaldi/storemono/libs/logger
+# github.com/karelrenaldi/storemono/libs/smarthttp v0.0.0 => ../../libs/smarthttp
+## explicit
+github.com/karelrenaldi/storemono/libs/smarthttp
+# go.uber.org/atomic v1.7.0
+go.uber.org/atomic
+# go.uber.org/multierr v1.6.0
+go.uber.org/multierr
+# go.uber.org/zap v1.21.0
+## explicit
+go.uber.org/zap
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+go.uber.org/zap/zapcore
+# golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+golang.org/x/sync/singleflight

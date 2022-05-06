@@ -1,0 +1,17 @@
+VERSION 0.6
+
+deps:
+    FROM golang:1.16-alpine
+    WORKDIR /libs/hello
+    COPY go.mod ./
+    RUN go mod download
+
+artifact:
+    FROM +deps
+    COPY hello.go .
+    SAVE ARTIFACT .
+
+unit-test:
+    FROM +artifact
+    COPY hello_test.go .
+    RUN go test
